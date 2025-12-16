@@ -1,0 +1,215 @@
+[
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/1.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/1.jpg",
+    "description": ""
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/2.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/2.jpg",
+    "description": [
+      "Activity 1: Teacher Surveys",
+      "Research Insight:",
+      "A 2023 study by Education World revealed that:",
+      {
+        "type": "para",
+        "items": [
+          "72% of teachers in India prefer professional development programs aligned with their specific subject areas.",
+          "Only 35% felt that current training programs adequately address classroom challenges."
+        ]
+      },
+      "Survey Template:",
+      "Demographic Information:",
+      {
+        "type": "para",
+        "items": [
+          "Years of Teaching Experience: Research indicates that newer teachers (0-2 years of experience) often struggle more with classroom management. Studies show 43% of these teachers feel overwhelmed by student behaviour.",
+          "Subject Area: A survey by the National Centre for Education Statistics found that subject-specific training increased teacher effectiveness by 20% over generic training."
+        ]
+      },
+      "Familiarity with Caelum Way Principles:",
+      {
+        "type": "para",
+        "items": [
+          "How familiar are you with the Caelum Way educational approach? (Rate 1-5)",
+          "Have you received formal training on these principles?"
+        ]
+      },
+      "Perceived Strengths and Weaknesses:",
+      {
+        "type": "para",
+        "items": [
+          "According to a recent survey by the British Council, 62% of teachers were unaware of areas needing improvement until informed through peer feedback."
+        ]
+      },
+      "Professional Development Needs and Goals:",
+      {
+        "type": "para",
+        "items": [
+          "A 2021 survey by UNESCO found that 67% of Indian teachers desired more training in digital tools, especially after the shift to online learning post-pandemic."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/3.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/3.jpg",
+    "description": [
+      "Activity 2: Focus Groups",
+      "Case Study:",
+      "In 2022, schools in Kerala introduced focus groups to assess teachers' experiences with integrating technology into classrooms. Feedback led to specialised training programs, resulting in:",
+      {
+        "type": "para",
+        "items": [
+          "30% improvement in teacher satisfaction scores.",
+          "18% increase in student performance."
+        ]
+      },
+      "Facilitation Guide:",
+      "Introduction and Ground Rules:",
+      {
+        "type": "para",
+        "items": [
+          "Set clear expectations: open communication, respect, confidentiality.",
+          "Research from the National University of Singapore found that 85% of participants felt that clear ground rules fostered honest and constructive dialogue."
+        ]
+      },
+      "Discussion Topics:",
+      {
+        "type": "para",
+        "items": [
+          "Challenges in Implementing the Caelum Way: In a similar exercise at a prestigious school, feedback on challenges adopting holistic learning led to 25% more targeted professional development programs.",
+          "Areas for Improvement: Teachers in Bengaluru schools identified classroom management and technology use as areas needing support, leading to revised PD programs that included more practical scenarios and digital tools training."
+        ]
+      },
+      "Debrief and Summary:",
+      {
+        "type": "para",
+        "items": [
+          "Summarise key insights and confirm accuracy with participants.",
+          "Use feedback to tailor action plans for teacher development."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/4.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/4.jpg",
+    "description": [
+      "Activity 3: Observations",
+      "Research Insight:",
+      "A Harvard University study found that 94% of effective teaching practices are captured through regular classroom observations. Schools using these practices report:",
+      {
+        "type": "para",
+        "items": ["10-15% increase in student engagement."]
+      },
+      "Observation Rubric:",
+      "Classroom Management:",
+      {
+        "type": "para",
+        "items": [
+          "Research by Stanford University's Graduate School of Education shows effective management reduces disruptive behaviour by 21%."
+        ]
+      },
+      "Instructional Strategies:",
+      {
+        "type": "para",
+        "items": [
+          "Teachers who vary their instructional strategies, such as group work or problem-solving, improve student engagement by 33%, according to research."
+        ]
+      },
+      "Use of Technology:",
+      {
+        "type": "para",
+        "items": [
+          "A 2023 McKinsey report revealed that 81% of teachers using technology in lessons report higher levels of student engagement and performance, especially with multimedia tools."
+        ]
+      },
+      "Integration of Caelum Way Principles:",
+      {
+        "type": "para",
+        "items": [
+          "A Pune-based case study demonstrated that schools with a strong integration of child-centred learning saw a 25% increase in student participation and satisfaction."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/5.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/5.jpg",
+    "description": [
+      "Activity 3: Observations",
+      "Research Insight:",
+      "A Harvard University study found that 94% of effective teaching practices are captured through regular classroom observations. Schools using these practices report:",
+      {
+        "type": "para",
+        "items": ["10-15% increase in student engagement."]
+      },
+      "Observation Rubric:",
+      "Classroom Management:",
+      {
+        "type": "para",
+        "items": [
+          "Research by Stanford University's Graduate School of Education shows effective management reduces disruptive behaviour by 21%."
+        ]
+      },
+      "Instructional Strategies:",
+      {
+        "type": "para",
+        "items": [
+          "Teachers who vary their instructional strategies, such as group work or problem-solving, improve student engagement by 33%, according to research."
+        ]
+      },
+      "Use of Technology:",
+      {
+        "type": "para",
+        "items": [
+          "A 2023 McKinsey report revealed that 81% of teachers using technology in lessons report higher levels of student engagement and performance, especially with multimedia tools."
+        ]
+      },
+      "Integration of Caelum Way Principles:",
+      {
+        "type": "para",
+        "items": [
+          "A Pune-based case study demonstrated that schools with a strong integration of child-centred learning saw a 25% increase in student participation and satisfaction."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/6.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/6.jpg",
+    "description": [
+      "Data Analysis",
+
+      "Quantitative Analysis:",
+      {
+        "type": "para",
+        "items": [
+          "Using tools like Excel or Google Sheets, schools can track survey responses to identify common professional development needs.",
+          "For instance, a CBSE needs analysis found that:",
+          "48% of teachers prioritised classroom management.",
+          "34% requested training in digital tools."
+        ]
+      },
+      "Qualitative Analysis:",
+      {
+        "type": "para",
+        "items": [
+          "Organise focus group and observation data thematically.",
+          "A study by NCTE found that schools using qualitative insights from focus groups for training design saw a 17% increase in teacher satisfaction within a year."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/7.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/7.jpg",
+    "description": "By conducting a detailed needs assessment using surveys, focus groups, and observations, schools can accurately gauge their staff's development needs. This data-driven approach allows for more targeted and effective training, better alignment with the Caelum Way, and improved teaching outcomes"
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/recruitment/teachersTraining/16_9/Section1/8.jpg",
+    "imageMobile": "/assets/learning_resource_data/recruitment/teachersTraining/3_4/Section1/8.jpg",
+    "description": ""
+  }
+]

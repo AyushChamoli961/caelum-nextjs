@@ -1,0 +1,155 @@
+[
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/1.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/1.jpg",
+    "description": "Performance evaluation is more than a mere administrative task—it is a pivotal mechanism for fostering growth, ensuring excellence, and aligning individual achievements with the broader mission of Caelum. The Caelum Way performance evaluations are designed to be holistic, engaging, and supportive, ensuring that every employee not only meets but exceeds their potential. Research underscores the significance of structured performance evaluations: a study by Glassdoor (2020) reports that a well-structured onboarding and performance evaluation process can boost employee retention by 82% and productivity by over 70%. This section delves into best practices for conducting performance evaluations that are thought-provoking, comprehensive, and sensory-engaging, tailored to meet both the high standards of the ICSE framework and Caelum’s commitment to sustainability and employee well-being."
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/2.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/2.jpg",
+    "description": [
+      "Goal Setting: Charting the Path to Excellence",
+      "Establishing Clear and Measurable Goals: Goals are not arbitrary but are carefully crafted to be clear, measurable, and aligned with both the individual’s role and the school’s overarching objectives. Organisations that implement SMART goal-setting frameworks report a 25% increase in employee performance (Deloitte, 2020).",
+      {
+        "type": "bullet",
+        "items": [
+          "SMART Goals: Each goal is Specific, Measurable, Achievable, Relevant, and Time-bound. This ensures clarity and provides a tangible pathway for employees to achieve their targets.",
+          "Collaborative Planning: Teachers and staff collaborate with their supervisors to set these goals, fostering a sense of ownership and commitment.",
+          "Visual Mapping: Utilising visual tools like goal charts and progress trackers helps employees visualise their journey towards achieving their goals, engaging their visual senses and providing continuous motivation."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/3.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/3.jpg",
+    "description": [
+      "It is absolutely necessary to provide Ongoing, Constructive Feedback. Regular feedback is essential to keep employees informed about their performance, recognize achievements, and address areas needing improvement in real-time.",
+      {
+        "type": "bullet",
+        "items": [
+          "Frequent Check-Ins: Scheduled monthly or quarterly meetings ensure that feedback is timely and relevant, preventing issues from escalating and allowing for immediate course corrections.",
+          "Balanced Feedback: Feedback sessions incorporate both positive reinforcement and constructive criticism, creating a balanced perspective that motivates employees while guiding their development.",
+          "Sensory Engagement: Incorporate interactive elements such as visual presentations of performance data and auditory discussions that make feedback sessions more engaging and memorable."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/4.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/4.jpg",
+    "description": [
+      "It is essential to conduct formal performance reviews. Formal performance reviews are conducted at predetermined intervals—typically annually or semi-annually—to provide a comprehensive assessment of an employee’s performance over a specific period. Organisations that conduct structured performance reviews see a 15% increase in employee productivity (Harvard Business Review, 2018).",
+      {
+        "type": "bullet",
+        "items": [
+          "Structured Evaluations: Utilising standardised evaluation forms ensures consistency and fairness across all assessments.",
+          "Holistic Approach: Reviews encompass multiple dimensions of performance, including teaching effectiveness, classroom management, student engagement, collaboration with peers, and adherence to the Caelum Way.",
+          "Interactive Reviews: Incorporate multi-sensory elements such as interactive dashboards that display performance metrics, audio recordings of student feedback, and visual infographics summarising key achievements and areas for improvement."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/5.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/5.jpg",
+    "description": [
+      "The 360-Degree Feedback tool at Caelum collects insights from various sources—peers, supervisors, subordinates, and self-assessments—to provide a well-rounded view of an employee’s performance. Employees who receive 360-degree feedback report a 30% increase in self-awareness and a 20% improvement in performance (Journal of organisational behaviour, 2020).",
+      {
+        "type": "bullet",
+        "items": [
+          "Diverse Feedback Sources: Engaging multiple perspectives ensures that evaluations are balanced and unbiased.",
+          "Interactive Platforms: Utilising the LMS App, references can submit feedback through video responses, audio recordings, or interactive forms, making the process more engaging and comprehensive.",
+          "Visual Representation: Feedback is presented through radar charts and bar graphs, allowing employees to visually interpret their strengths and areas for improvement."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/6.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/6.jpg",
+    "description": [
+      "Schools that implement balanced scorecard methodologies experience a 25% increase in overall organisational performance (Balanced Scorecard Institute, 2019). The Balanced Scorecard approach evaluates performance across four key dimensions: Financial, Customer (Student and Parent Satisfaction), Internal Processes, and Learning and Growth.",
+
+      {
+        "type": "bullet",
+        "items": [
+          "Balanced Metrics: This ensures that evaluations are not solely focused on academic outcomes but also on the holistic development of both employees and students.",
+          "Engaging Dashboards: Interactive scorecards within the LMS App display real-time performance data across all four dimensions, providing employees with an immediate and comprehensive understanding of their performance.",
+          "Sensory Integration: Incorporating colour-coded metrics and interactive elements makes the balanced scorecard a more engaging tool for performance evaluation."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/7.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/7.jpg",
+    "description": [
+      "Key Performance Indicators (KPIs) are specific, quantifiable measures that align with an employee’s role and the school’s strategic objectives. Organisations that effectively track and manage KPIs see a 20% improvement in goal attainment (Forbes, 2021).",
+      {
+        "type": "bullet",
+        "items": [
+          "Role-Specific KPIs: Tailored to each position, ensuring relevance and fostering a sense of purpose. For example, a teacher’s KPIs might include student engagement levels, innovative lesson plans, and professional development milestones.",
+          "Real-Time Tracking: The LMS App allows for continuous tracking of KPIs, providing employees with visual progress bars and real-time data that keep them informed and motivated.",
+          "Feedback Integration: KPIs are discussed during performance reviews, ensuring that employees understand how their daily actions contribute to their long-term goals and the school’s success."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/8.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/8.jpg",
+    "description": [
+      "Constructive Feedback: Encouraging Improvement and Growth",
+      {
+        "type": "para",
+        "items": [
+          "Delivering Meaningful and Actionable Feedback can mean more than people realise. Constructive feedback is essential for personal and professional growth. Constructive feedback is linked to a 10% increase in employee performance and a 15% improvement in employee satisfaction (Journal of Applied Psychology, 2018). At Caelum, feedback is delivered in a manner that is specific, actionable, and supportive."
+        ]
+      },
+      {
+        "type": "bullet",
+        "items": [
+          "Positive Reinforcement: Celebrating successes and recognizing achievements reinforces positive behaviour and motivates employees to continue performing well.",
+          "Actionable Insights: Providing clear, actionable steps for improvement helps employees understand exactly what they need to do to enhance their performance.",
+          "Engaging Methods: Utilise interactive feedback sessions that include visual aids, audio recordings of positive interactions, and hands-on activities to make feedback more engaging and effective."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/9.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/9.jpg",
+    "description": [
+      "Employees with personalised development plans are 34% more likely to stay with their organisation and 21% more productive (LinkedIn Learning, 2020). Development plans are tailored to each employee's unique strengths, areas for growth, and career aspirations, ensuring that their professional journey is aligned with both personal and organisational goals.",
+      {
+        "type": "bullet",
+        "items": [
+          "Personalised Goals: Each development plan includes specific goals, milestones, and timelines, fostering a sense of direction and purpose.",
+          "Resource Allocation: Providing access to resources such as workshops, courses, and mentorship programs supports continuous learning and development.",
+          "Interactive Planning: Using the LMS App, employees can visualise their development paths through interactive timelines and progress trackers, making the planning process more engaging and transparent."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/10.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/10.jpg",
+    "description": [
+      "Continuous learning is ingrained in the Caelum culture. We believe that professional development is an ongoing process that benefits both the individual and the institution. Schools that prioritise continuous learning see a 21% increase in teacher effectiveness and a 15% improvement in student outcomes (Learning Policy Institute, 2018).",
+      {
+        "type": "para",
+        "items": [
+          "Ongoing Training: Regular workshops, seminars, and training sessions ensure that employees remain updated with the latest educational trends and teaching methodologies.",
+          "Peer Learning: Encouraging collaboration and knowledge sharing among staff members fosters an environment of mutual growth and support.",
+          "Engaging Formats: Utilising various formats such as interactive webinars, hands-on training sessions, and group discussions makes continuous learning more dynamic and engaging."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/hr/hrPolicies/16_9/Section 3/11.jpg",
+    "imageMobile": "/assets/learning_resource_data/hr/hrPolicies/3_4/Section 3/11.jpg",
+    "description": ""
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/1.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/1.jpg",
+    "description": ""
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/2.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/2.jpg",
+    "description": ""
+  },
+
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/3.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/3.jpg",
+    "description": [
+      {
+        "type": "para",
+        "items": [
+          "Creating a truly inclusive environment isn't just about celebrating diversity—it requires addressing the deeply ingrained perceptions and attitudes we carry, often unknowingly. These subtle perceptions, known as unconscious biases, shape our decisions, actions, and interactions in profound ways, even when we’re unaware of them.",
+          "Research shows that over 90% of human brain activity occurs at the unconscious level, meaning many of our judgments and actions stem from automatic processes (Banaji & Greenwald, 2013). As educators and leaders, this hidden layer of bias can shape our behavior, our teaching, and how we interact with both students and colleagues. This module explores how these biases manifest and equip us with tools to mitigate their influence, creating a learning environment where every individual feels seen, valued, and included."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/4.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/4.jpg",
+    "description": [
+      {
+        "type": "para",
+        "items": [
+          "Unconscious bias refers to the automatic judgments or stereotypes that influence how we view and treat others. These biases are shaped by past experiences, cultural norms, and social influences. Crucially, unconscious bias is not something we are fully aware of, which is why it can be so pervasive.",
+          "Imagine a classroom where you find yourself naturally gravitating toward students who share similar hobbies or backgrounds, or an office where certain colleagues seem to receive more support or recognition. These subtle preferences are not always intentional but can impact fairness and equality in ways that aren’t immediately visible.",
+          "Studies confirm that unconscious biases are widespread, with one Harvard study revealing that 75% of participants exhibited biases in areas such as race, gender, and age, without even realizing it (Project Implicit, 2017). Understanding how these biases operate allows us to recognize their effects on decisions and behaviors, making it possible to challenge them."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/5.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/5.jpg",
+    "description": [
+      "While biases are deeply embedded in our everyday interactions, several types are particularly prevalent in education and workplace settings:",
+      {
+        "type": "bullet",
+        "items": [
+          "Racial Bias: Research shows that racial biases can affect everything from grading practices to student-teacher interactions. A 2016 study found that Black students are three times more likely to be suspended than their White counterparts for the same behavior (U.S. Department of Education, 2016).",
+          "Gender Bias: Many teachers unknowingly reinforce gender norms, assuming, for example, that male students excel in STEM subjects while females thrive in the arts. This stereotype can impact student confidence and opportunities.",
+          "Age Bias: In professional settings, younger employees are often seen as more adaptable or energetic, while older employees may be overlooked due to assumptions about their ability to keep up with technology or change (Cuddy & Wolf, 2013)."
+        ]
+      },
+      "Recognizing these biases is the first step toward ensuring they do not undermine fairness or equity in our classrooms or workplaces."
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/6.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/6.jpg",
+    "description": [
+      {
+        "type": "para",
+        "items": [
+          "Unconscious bias doesn’t announce itself loudly—it operates in the background, affecting the choices we make. Research from Yale University (2012) demonstrated that even trained scientists are not immune—in a study, both male and female scientists were more likely to hire male candidates over equally qualified female candidates.",
+          "In educational settings, biases can affect how we evaluate student potential or distribute attention. A teacher might give more praise or opportunities to students who fit a certain stereotype of success, while others, perhaps those who are quieter or from different backgrounds, receive less support. Over time, these small, often unnoticed biases can lead to disparities in academic achievement.",
+          "Similarly, in recruitment or staff promotion, unconscious biases may lead to favoring candidates who look or think like the decision-makers, creating a homogeneous environment and preventing diverse perspectives from being valued."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/7.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/7.jpg",
+    "description": [
+      "The effects of unconscious bias can be profound, often creating unequal learning experiences and workplace dynamics:",
+      {
+        "type": "bullet",
+        "items": [
+          "For Students: When biases inform teacher behavior, students from marginalized groups might feel excluded, discouraged, or unfairly judged. This can hinder not just their academic success but also their emotional well-being. Research from the American Psychological Association (APA) found that students who experience bias are more likely to disengage from school, leading to lower achievement and higher dropout rates (APA, 2019).",
+          "For Educators and Staff: Unconscious bias in hiring, evaluations, and promotions can lead to inequitable opportunities for advancement. Employees may feel undervalued if they sense that decisions are being influenced by factors beyond merit, which can lead to reduced job satisfaction, lower morale, and decreased organizational loyalty."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/8.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/8.jpg",
+    "description": [
+      "While we may never fully eliminate unconscious bias, we can take meaningful steps to minimize its impact:",
+      {
+        "type": "bullet",
+        "items": [
+          "Self-Reflection: The journey begins with self-awareness. Educators and leaders should engage in honest reflection about their biases, using tools like the Implicit Association Test (IAT) to uncover hidden preferences. Studies suggest that individuals who are aware of their biases are more likely to change their behaviors (Devine et al., 2012).",
+          "Critical Thinking: Challenge assumptions by asking questions like, “Am I treating this person fairly?” or “Is my decision based on facts or perceptions?” By slowing down decision-making and questioning our instincts, we can interrupt bias.",
+          "Seek Diverse Perspectives: Actively seek out and include diverse viewpoints, whether through literature, collaboration with colleagues from different backgrounds, or engaging with underrepresented communities. Research consistently shows that diverse teams outperform homogeneous ones, precisely because they bring varied experiences to the table (Rock & Grant, 2016).",
+          "Use Inclusive Language: Language shapes perception. Avoid stereotypes or assumptions in how we speak to or about students and colleagues. Adopting inclusive, neutral language helps create a culture of respect and fairness.",
+          "Fair Hiring Practices: Introduce blind recruitment strategies, standardized assessment rubrics, and diverse interview panels to ensure that hiring and promotion decisions are based on merit rather than affinity bias."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/9.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/9.jpg",
+    "description": [
+      "Case Studies: Reviewing real-world examples of unconscious bias can help identify similar patterns in our environments.",
+      {
+        "type": "para",
+        "items": [
+          "Role-Playing: Acting out scenarios involving bias provides an opportunity to practice strategies for creating more inclusive interactions.",
+          "Reflective Journaling: Writing about daily decisions and behaviors encourages deeper introspection and helps uncover biases we might not otherwise notice.",
+          "Bias Awareness Workshops: Group training that focuses on understanding and addressing bias equips staff with practical tools to combat its effects."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/10.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/10.jpg",
+    "description": [
+      {
+        "type": "para",
+        "items": [
+          "Unconscious bias is not a personal failing but a human one. The key is not to eliminate it, something that might be impossible, but to recognize it, challenge it, and work toward minimizing its influence on our behaviors and decisions. By doing so, we can help create spaces where fairness, equity, and inclusion are not just ideals, but lived realities for every student, educator, and staff member.",
+          "The evidence is clear: when we actively confront and manage our biases, we pave the way for more inclusive, equitable, and successful outcomes for everyone."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/16_9/11.jpg",
+    "imageMobile": "/assets/learning_resource_data/diversity/diversityTrainingModule/Section 3/3_4/11.jpg",
+    "description": ""
+  }
+]

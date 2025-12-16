@@ -1,0 +1,89 @@
+[
+  {
+    "imageDesktop": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/16_9/1.jpg",
+    "imageMobile": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/3_4/1.jpg",
+    "description": "Rooted in principles drawn from thinkers like John Dewey and Maria Montessori, the Caelum Way envisions education not only as an academic journey but as a path to developing well-rounded, capable individuals."
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/16_9/2.jpg",
+    "imageMobile": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/3_4/2.jpg",
+    "description": "The Caelum Way is built on the idea that education should stimulate each child's intellectual, social, emotional, and creative growth rather than focusing solely on academic achievement. Thus, developing a love for learning. The philosophy is centered on the child as a whole and thus upholds a supportive framework that helps students develop essential life skills such as critical thinking, emotional intelligence, and collaborative problem-solving. This approach has been shown to enhance student engagement and achievement by making learning more meaningful and relevant. Research has demonstrated that students perform better academically and socially when learning aligns with their interests and needs."
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/16_9/3.jpg",
+    "imageMobile": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/3_4/3.jpg",
+    "description": [
+      "Several key principles underpin the Caelum Way, shaping a well-rounded educational experience for every student:",
+      {
+        "type": "bullet",
+        "items": [
+          "Child-centered Learning: Tailoring education to each child's interests and pace, creating an engaging and personalized journey.",
+          "Social-Emotional Learning (SEL): Integrating emotional skills, such as empathy and self-awareness, to support students' personal growth and foster a supportive school culture.",
+          "Inquiry-Based Learning: Encouraging curiosity by allowing students to ask questions, investigate, and learn through hands-on experiences.",
+          "Collaborative Learning: Promoting teamwork and respect for diverse perspectives, is essential for success in a connected world.",
+          "Creative Expression: Offering multiple avenues for students to explore and communicate their thoughts, fostering self-confidence and adaptability."
+        ]
+      },
+      "These principles create a cohesive educational experience that prepares students not only for academic success but for a fulfilling life beyond the classroom."
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/16_9/4.jpg",
+    "imageMobile": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/3_4/4.jpg",
+    "description": [
+      "To help both students and educators internalise the principles of the Caelum Way, we have created a dynamic activity: Caelum Way Bingo. This interactive game is designed to deepen understanding in a fun and engaging manner, allowing participants to connect with the philosophy on a more personal level.",
+      "Materials Needed",
+      {
+        "type": "bullet",
+        "items": [
+          "Bingo board template: A 5x5 grid with 25 squares",
+          "Bingo markers or tokens: Small tokens or markers to cover squares on the Bingo board"
+        ]
+      },
+      "Game Preparation",
+      {
+        "type": "bullet",
+        "items": [
+          "Create the Bingo Board: The board includes a grid with each square representing a term, concept, or principle related to the Caelum Way. Examples might include terms like 'collaboration,' 'curiosity,' 'inquiry,' 'empathy,' and 'creativity'",
+          "Fill the Squares: Each square should feature one key term, concept, or value linked to the Caelum Way. Choose terms that capture the essence of the approach, offering both familiar and new ideas to encourage reflection."
+        ]
+      },
+      "Instructions for Playing Caelum Way Bingo",
+      {
+        "type": "bullet",
+        "items": [
+          "Divide Participants into Teams or Individuals: Participants can play individually or in groups, depending on class size and time available",
+          "Explain the Rules: Explain that the goal is to complete a row, column, or diagonal on the Bingo board. The facilitator (typically a teacher or team leader) will call out clues that correspond to the Caelum Way principles.",
+          "Read Out Clues: The facilitator reads out clues or definitions related to each term on the Bingo board. For example, for 'empathy,' the clue might be, 'The skill of understanding and sharing the feelings of others, essential for positive relationships'",
+          "Mark the Corresponding Square: Participants place a marker on the appropriate square that matches the clue. If the clue doesn't match any of their remaining squares, they simply wait for the next one",
+          "Win by Completing a Line: The first person or team to complete a row, column, or diagonal line of marked squares shouts Caelum! to signal their win."
+        ]
+      },
+      "Example Clues for Caelum Way Bingo",
+      "To enrich the learning experience, clues can vary in complexity and style, promoting reflection and discussion about each principle. Some example clues might include:",
+      {
+        "type": "bullet",
+        "items": [
+          "Collaboration: 'Working together to solve problems and share knowledge.'",
+          "Curiosity: The desire to learn, question, and explore new ideas.",
+          "Self-Expression: Opportunities for students to communicate their ideas creatively through art, music, drama, or writing."
+        ]
+      }
+    ]
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/16_9/5.jpg",
+    "imageMobile": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/3_4/5.jpg",
+    "description": "The Caelum Way Bingo activity is more than a game; it's a tool for immersive learning that encourages participants to actively engage with our core principles. By exploring each term and concept in a fun, interactive setting, students and educators alike gain a deeper understanding of the philosophy behind the Caelum Way. This activity also promotes social interaction, reinforcing collaborative skills as participants discuss answers, share insights, and support one another."
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/16_9/6.jpg",
+    "imageMobile": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/3_4/6.jpg",
+    "description": "While Caelum Way Bingo is an effective introduction, the journey doesn't end with the game. The principles learned through Bingo lay the groundwork for a more thoughtful, integrated approach that will be reinforced through daily learning activities and ongoing professional development for teachers. As educators deepen their understanding of the Caelum Way, they are better equipped to create a learning environment that embodies these values, inspiring students to become compassionate, capable individuals ready to make meaningful contributions to the world."
+  },
+  {
+    "imageDesktop": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/16_9/7.jpg",
+    "imageMobile": "/assets/learning_resource_data/leadership/curriculumMapping/Section1/3_4/7.jpg",
+    "description": ""
+  }
+]

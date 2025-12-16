@@ -1,0 +1,51 @@
+/* Perspective for 3D effect */
+.card-container {
+  perspective: 1000px;
+}
+
+/* The card itself, which will rotate */
+.card {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Card flip state */
+.card.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Front of the card */
+.card-front {
+  backface-visibility: hidden;
+}
+
+.card-front img {
+  transform: scale(1.2);
+  object-fit: cover;
+}
+
+/* Back of the card (white background with yellow border) */
+.card-back {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border: 4px solid #fbd017;
+  font-size: 16px;
+  color: black;
+  border-radius: 12px;
+}
+
+.card-back h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-front .bg-color1 {
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,186 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+// Enums
+enum UserType {
+    Investor
+    Teacher
+    SuperAdmin
+}
+
+enum UserRole {
+    SuperAdmin
+    Admin
+    Investor
+    Teacher
+}
+
+// User model - main user table
+model User {
+    userId    String   @id @default(uuid()) @map("user_id")
+    userType  UserType @map("user_type")
+    name      String
+    email     String   @unique
+    password  String
+    role      UserRole
+    createdAt DateTime @default(now()) @map("created_at")
+    updatedAt DateTime @updatedAt @map("updated_at")
+
+    // Relations
+    chats       Chat[]
+    monicaChats MonicaChat[]
+
+    @@map("Users")
+}
+
+// Admin Users - separate admin table
+model AdminUser {
+    id           String   @id @default(uuid())
+    email        String   @unique
+    passwordHash String   @map("password_hash")
+    name         String   @default("")
+    role         String   @default("admin")
+    createdAt    DateTime @default(now()) @map("created_at")
+    updatedAt    DateTime @updatedAt @map("updated_at")
+
+    @@map("admin_users")
+}
+
+// Blog model
+model Blog {
+    id              String   @id @default(uuid())
+    slug            String   @unique
+    title           String
+    subtitle        String   @default("")
+    description     String   @default("") @db.Text
+    content         String?  @db.Text
+    image           String?
+    metaTitle       String?  @map("meta_title")
+    metaDescription String?  @map("meta_description") @db.Text
+    metaKeywords    String[] @default([]) @map("meta_keywords")
+    readTime        Int?     @map("read_time")
+    isPublished     Boolean  @default(false) @map("is_published")
+    createdAt       DateTime @default(now()) @map("created_at")
+    updatedAt       DateTime @updatedAt @map("updated_at")
+
+    // Relations
+    images BlogImage[]
+    faqs   BlogFaq[]
+
+    @@map("blogs")
+}
+
+// Blog FAQ model
+model BlogFaq {
+    id        String   @id @default(uuid())
+    question  String
+    answer    String   @db.Text
+    createdAt DateTime @default(now()) @map("created_at")
+    updatedAt DateTime @updatedAt @map("updated_at")
+
+    // Relations
+    blogId String @map("blog_id")
+    blog   Blog   @relation(fields: [blogId], references: [id])
+
+    @@map("blog_faqs")
+}
+
+// Blog Images model
+model BlogImage {
+    id        String   @id @default(uuid())
+    imageUrl  String   @map("image_url")
+    altText   String?  @map("alt_text")
+    isMain    Boolean  @default(false) @map("is_main")
+    createdAt DateTime @default(now()) @map("created_at")
+    updatedAt DateTime @updatedAt @map("updated_at")
+
+    // Relations
+    blogId String @map("blog_id")
+    blog   Blog   @relation(fields: [blogId], references: [id])
+
+    @@map("blog_images")
+}
+
+// SEO Pages model
+model SeoPage {
+    id            String   @id @default(uuid())
+    slug          String   @unique
+    title         String?
+    description   String?  @db.Text
+    keywords      String[] @default([])
+    ogTitle       String?  @map("og_title")
+    ogDescription String?  @map("og_description") @db.Text
+    ogImage       String?  @map("og_image")
+    isActive      Boolean  @default(true) @map("is_active")
+    createdAt     DateTime @default(now()) @map("created_at")
+    updatedAt     DateTime @updatedAt @map("updated_at")
+
+    @@map("seo_pages")
+}
+
+// Investor Chat model
+model Chat {
+    id          String   @id @default(uuid())
+    sessionId   String   @map("session_id")
+    userId      String?  @map("user_id")
+    userMessage String   @map("user_message") @db.Text
+    botResponse String   @map("bot_response") @db.Text
+    createdAt   DateTime @default(now()) @map("created_at")
+    updatedAt   DateTime @updatedAt @map("updated_at")
+
+    // Relations
+    user User? @relation(fields: [userId], references: [userId], onDelete: SetNull)
+
+    @@index([sessionId])
+    @@index([userId])
+    @@map("Chats")
+}
+
+// Monica Teacher AI Chat model
+model MonicaChat {
+    id          String   @id @default(uuid())
+    sessionId   String   @map("session_id")
+    userId      String?  @map("user_id")
+    userMessage String   @map("user_message") @db.Text
+    botResponse String   @map("bot_response") @db.Text
+    createdAt   DateTime @default(now()) @map("created_at")
+    updatedAt   DateTime @updatedAt @map("updated_at")
+
+    // Relations
+    user User? @relation(fields: [userId], references: [userId], onDelete: SetNull)
+
+    @@index([sessionId])
+    @@index([userId])
+    @@map("MonicaChats")
+}
+
+// Feasibility Checker model
+model FeasibilityChecker {
+    id               Int      @id @default(autoincrement())
+    landSize         Decimal  @map("land_size") @db.Decimal(20, 2)
+    potentialBuiltUp Decimal  @map("potential_built_up") @db.Decimal(20, 2)
+    computedValue    Decimal  @map("computed_value") @db.Decimal(20, 2)
+    category         String
+    createdAt        DateTime @default(now()) @map("created_at")
+    updatedAt        DateTime @updatedAt @map("updated_at")
+
+    @@map("FeasibilityCheckers")
+}
+
+// Realised Revenue Potential model
+model RealisedRevenuePotential {
+    id                       Int      @id @default(autoincrement())
+    noofStudents             Decimal  @map("noof_students") @db.Decimal(20, 2)
+    potentialBuiltUp         Decimal? @map("potential_built_up") @db.Decimal(20, 2)
+    realisedRevenuePotential Decimal  @map("realised_revenue_potential") @db.Decimal(20, 2)
+    createdAt                DateTime @default(now()) @map("created_at")
+    updatedAt                DateTime @updatedAt @map("updated_at")
+
+    @@map("RealisedRevenuePotentials")
+}
