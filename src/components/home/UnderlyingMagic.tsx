@@ -11,7 +11,7 @@ const UnderlyingMagic = () => {
   ];
 
   return (
-    <div className="pt-12 px-6 lg:px-0">
+    <div className="pt-16 px-6 sm:px-8 lg:px-16 xl:px-24 max-w-7xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-20">
         {/* Left Column - Paragraphs */}
         <div className="w-full lg:w-1/2 space-y-6">
@@ -24,7 +24,7 @@ const UnderlyingMagic = () => {
           </button>
         </div>
         {/* Right Column - Headings (Aligned in the middle) */}
-        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center h-full">
+        <div className="w-full lg:w-1/2 flex flex-col justify-center h-full">
           <h3 className="text-3xl lg:text-4xl font-bold text-color3">
             The Caelum Way
           </h3>

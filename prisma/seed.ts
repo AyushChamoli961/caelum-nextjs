@@ -4,7 +4,7 @@ import bcrypt from "bcrypt";
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("🌱 Starting database seed...");
+  console.log(" Starting database seed...");
 
   // Create Super Admin
   const adminPassword = await bcrypt.hash("admin123", 10);

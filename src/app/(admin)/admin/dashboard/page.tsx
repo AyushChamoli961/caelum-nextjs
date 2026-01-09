@@ -17,6 +17,7 @@ interface DashboardStats {
   seoPages: number;
   users?: number;
   faqs: number;
+  leads?: number;
 }
 
 export default function AdminDashboardPage() {
@@ -90,6 +91,14 @@ export default function AdminDashboardPage() {
       count: stats?.faqs ?? 0,
       color: "bg-purple-500",
     },
+    {
+    title: "Leads",
+    description: "View and manage captured leads",
+    icon: MdQuestionAnswer, // or choose MdPeopleAlt / MdContacts
+    href: "/admin/leads",
+    count: stats?.leads ?? 0,
+    color: "bg-orange-500",
+},
   ];
 
   return (

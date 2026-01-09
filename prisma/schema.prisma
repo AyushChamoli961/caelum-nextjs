@@ -184,3 +184,18 @@ model RealisedRevenuePotential {
 
     @@map("RealisedRevenuePotentials")
 }
+
+
+// Lead model
+model Lead {
+  id           String   @id @default(cuid())
+  name         String
+  email        String
+  phone        String   @unique
+  state        String
+  city         String
+  otp          String?
+  verified     Boolean  @default(false)
+  createdAt    DateTime @default(now())
+}
+

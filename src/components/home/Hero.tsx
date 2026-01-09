@@ -1,55 +1,70 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
-    <div className="relative">
-      {/* Hero Section with Background Video */}
-      <div className="relative h-[700px] w-full px-10 overflow-hidden">
-        {/* Background Video */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+    <section className="relative w-full h-[700px] overflow-hidden">
+      {/* 🔹 Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover -z-10"
+      >
+        <source src="/assets/home/Homepage Video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* 🔹 Gradient Overlay — just enough to highlight text area */}
+      <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/40 to-transparent z-0" />
+      <div className="absolute inset-0 bg-black/10 mix-blend-overlay z-0" />
+
+      {/* 🔹 Text Section — right side, left-aligned, compact width */}
+      <div className="relative z-10 flex items-center justify-end h-full px-8 lg:px-20">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="max-w-[380px] flex flex-col justify-center gap-4 text-left"
         >
-          <source src="/assets/home/Homepage Video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        {/* Content */}
-        <div className="flex items-center w-full h-full justify-end relative z-10">
-          <div className="w-[390px] flex-col gap-4 items-center justify-center hidden lg:flex">
-            <h2 className="text-4xl text-white font-bold text-left">
-              Reimagining Education: Where Curiosity Meets Growth
-            </h2>
-            <p className="text-xl text-white">
-              Nurturing Young Minds, Building Lasting Success: The Future of
-              Education, Today
-            </p>
-            <button className="text-xl font-semibold w-full text-color3 bg-color1 py-2 px-4 rounded-lg">
-              What Makes Us Different
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile View (Without Video) */}
-      <div className="flex w-full justify-center py-10 lg:hidden">
-        <div className="w-[450px] px-4 flex flex-col gap-4 items-center">
-          <h2 className="text-4xl font-bold">
-            Reimagining Education: Where Curiosity Meets Growth
+          <h2 className="text-3xl lg:text-4xl font-bold text-white leading-snug drop-shadow-[0_4px_10px_rgba(0,0,0,0.7)]">
+            Reimagining Education:{" "}
+            <span className="text-color1">Where Curiosity Meets Growth</span>
           </h2>
-          <p className="text-xl">
-            Nurturing Young Minds, Building Lasting Success: The Future of
-            Education, Today
+
+          <p className="text-lg lg:text-xl text-white/90 leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]">
+            Nurturing Young Minds, Building Lasting Success — The Future of
+            Education, Today.
           </p>
-          <button className="text-xl font-semibold bg-color1 py-2 px-4 rounded-lg">
+
+          <motion.button
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            className="text-lg lg:text-xl font-semibold text-color3 bg-color1 py-2 px-6 rounded-lg w-fit
+            hover:scale-105 hover:shadow-[0_0_25px_rgba(255,255,255,0.3)] transition-all duration-300"
+          >
             What Makes Us Different
-          </button>
-        </div>
+          </motion.button>
+        </motion.div>
       </div>
-    </div>
+
+      {/* 🔹 Mobile View */}
+      <div className="flex flex-col items-center justify-center text-center py-12 px-6 lg:hidden bg-gradient-to-b from-color3/90 to-color9/80 text-white">
+        <h2 className="text-3xl font-bold leading-tight">
+          Reimagining Education:{" "}
+          <span className="text-color1">Where Curiosity Meets Growth</span>
+        </h2>
+        <p className="mt-4 text-lg text-white/90">
+          Nurturing Young Minds. Building Lasting Success.
+        </p>
+        <button className="mt-6 text-lg font-semibold bg-color1 text-color3 px-6 py-3 rounded-lg hover:scale-105 transition-all duration-300">
+          What Makes Us Different
+        </button>
+      </div>
+    </section>
   );
 };
 
