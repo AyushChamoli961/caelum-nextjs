@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const teamMembers = [
   {
     name: "Mahit Thadaney",
@@ -44,9 +46,13 @@ const MeetTheTeam = () => {
             >
               {/* Image */}
               <div className="relative w-full h-56 lg:h-96 overflow-hidden">
-                <div
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-                  style={{ backgroundImage: `url(${member.image})` }}
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  sizes="(max-width: 1024px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  priority={index < 2}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/40 via-yellow-700/10 to-transparent" />
               </div>
@@ -76,8 +82,8 @@ const MeetTheTeam = () => {
           </p>
 
           <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-            Caelum people are visionaries, inventors, and changemakers guided by a
-            common mission: educational experiences that have a transformative
+            Caelum people are visionaries, inventors, and changemakers guided by
+            a common mission: educational experiences that have a transformative
             effect on students&apos; lives and their communities.
           </p>
         </div>
