@@ -36,15 +36,15 @@ export function MainNavbar() {
 
         <nav className="hidden lg:flex space-x-6 font-bold text-color3 text-lg">
           <Link href="/">HOME</Link>
-          <Link href="#">OUR STORY</Link>
-          <Link href="#">COURSES</Link>
+          <Link href="/our-story">OUR STORY</Link>
+          <Link href="/courses">COURSES</Link>
           <Link href="/login">LOG IN</Link>
           <Link href="/register">SIGN UP</Link>
           <Link href="/blogs">BLOGS</Link>
         </nav>
 
         <div className="lg:hidden">
-          <button onClick={toggleMobileMenu}>
+          <button onClick={toggleMobileMenu} aria-label="Toggle menu">
             <IoMenu className="w-12 h-12" />
           </button>
         </div>
@@ -60,14 +60,14 @@ export function MainNavbar() {
             HOME
           </Link>
           <Link
-            href="#"
+            href="/our-story"
             className="block py-2 border-b-2 border-color3/40"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             OUR STORY
           </Link>
           <Link
-            href="#"
+            href="/courses"
             className="block py-2 border-b-2 border-color3/40"
             onClick={() => setIsMobileMenuOpen(false)}
           >

@@ -18,7 +18,7 @@ const opportunities = [
       "Create a complete K-12 institution with our established franchise model, which provides a complete, high-ROI business opportunity. As a Caelum school franchisee, you benefit from our experience in setting up schools that emphasize holistic education.",
   },
   {
-    image: "/assets/home/Teacher's training.jpg",
+    image: "/assets/home/teacher_training.jpg",
     title: "Teacher's Upskilling",
     content:
       "Empower educators through training programs designed to foster best practices in teaching. Caelum provides in-depth training programs ranging from student engagement to technology infusion in the classroom.",
